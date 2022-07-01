@@ -1,4 +1,4 @@
-package assignment2;
+//package assignment2;
 import java.lang.Math;
 import java.util.Scanner;
 public class MathOperation {
@@ -40,14 +40,15 @@ public static void main(String[] args)
 	//Scanner s= new Scanner(System.in);
 	MathOperation m= new MathOperation();
 	System.out.println("Enter your choice\nA: Addition\nB: Multiplication\nC: Power\n Any number to Exit");
-	choice=s.next().charAt(0);
+	//choice=s.next().charAt(0);
+	choice='A';
 	switch(choice){
 	
 		case 'A':
 		{
 			System.out.println("Enter the 2 numbers");
-			X=s.nextInt();
-			Y=s.nextInt();
+			/*X=s.nextInt();
+			Y=s.nextInt();*/
 			m.init(5, 10);
 			m.add();
 			m.display();
@@ -56,8 +57,8 @@ public static void main(String[] args)
 		case 'B':
 		{
 			System.out.println("Enter the 2 numbers");
-			X=s.nextInt();
-			Y=s.nextInt();
+			/*X=s.nextInt();
+			Y=s.nextInt();*/
 			m.init(5,10);
 			m.multiply();
 			m.display();
@@ -66,8 +67,8 @@ public static void main(String[] args)
 		case 'C':
 		{
 			System.out.println("Enter the 2 numbers");
-			X=s.nextInt();
-			Y=s.nextInt();
+			/*X=s.nextInt();
+			Y=s.nextInt();*/
 			m.init(3,2);
 			m.power();
 			m.display();
